@@ -61,10 +61,10 @@ namespace QRCodeReader
             }
             return parseLumWithRotations(lum);
         }
-
+        
         static void Main(string[] args)
         {
-            var result = findAndParseQRCode(@"D:\programming\dotnet\QRCodeReader\examples\2018.04.05\3_crop.jpg");
+            var result = findAndParseQRCode(@"..\..\..\examples\2018.04.05\3_crop.jpg");
 
             if (result != null)
             {

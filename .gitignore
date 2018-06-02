@@ -15,3 +15,4 @@ bld/
 !examples/**/*.jpg
 !examples/**/*.png
 *.rar
+*.suo
